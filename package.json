@@ -1,0 +1,23 @@
+{
+  "name": "sand-box",
+  "description": "Webcomponent sand-box following open-wc recommendations",
+  "license": "MIT",
+  "author": "sand-box",
+  "version": "0.0.0",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "analyze": "cem analyze --litelement",
+    "start": "web-dev-server"
+  },
+  "dependencies": {
+    "@uswds/uswds": "^3.1.0",
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@custom-elements-manifest/analyzer": "^0.4.17",
+    "@web/dev-server": "^0.1.28",
+    "lit-css-loader": "^2.0.0"
+  },
+  "customElements": "custom-elements.json"
+}
