@@ -7,16 +7,12 @@ async function getData(url) {
 
 const DEFAULTSTYLES = await getData('../components/hero/json/sample.json');
 const USFSDEFAULT = await getData('../components/hero/json/usfs_figma.json');
-export class WCHero extends LitElement {
+export class WCParagraph extends LitElement {
 
 //define properties type
   static get properties() {
     return {
       title: { type: String },
-      subtitle: { type: String },
-      imgsrc: { type: String },
-      verttext: { type: String},
-      horizontaltext: { type: String},
       styleType: { type: String },
       fontColor: { type: String },
       fontFamily: { type: String},
@@ -31,9 +27,6 @@ export class WCHero extends LitElement {
 //define default property value is none
   constructor() {
     super();
-    this.title = 'Hey there';
-    this.subtitle = 'welcome'
-    this.verttext = '';
     this.styleType = '';
     this.usfsStyles = '';
     this.styleGuide = '';
@@ -59,8 +52,8 @@ export class WCHero extends LitElement {
 
     console.log(this.fontFamilies)
     console.log(this.colorsUSFS);
-    var cssStyle = '';
-    var usfsStyle = '';
+    var defaultStyle = '';
+    var customStyle = '';
     Object.keys(this.colorsUSFS).forEach( key => {
       console.log(key);
     }
@@ -83,7 +76,7 @@ export class WCHero extends LitElement {
 
     }
     
-    .text-container {
+    ::slotted(h1) {
       ${unsafeCSS(this.colorsUSFS[this.fontColor].type)}: ${unsafeCSS(this.colorsUSFS[this.fontColor].value)};
       font-family: ${unsafeCSS(this.fontFamilies[this.fontFamily].value)};
       line-height: ${unsafeCSS(this.lineHeights[this.lineHeight].value)};
@@ -105,12 +98,9 @@ export class WCHero extends LitElement {
     // returns html
     return html`
     <style>${this.standardCSS}</style>
-      <div class="hero" style="background-image: url(${this.imgsrc})">
         <div class="text-container">
-          <h1 class="title">${this.title}</h1>
-          <h2> ${this.subtitle}</h2>
+         <slot></slot>
         </div>
-      </div>   
     `;
   }
 }

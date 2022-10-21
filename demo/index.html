@@ -1,6 +1,10 @@
 <!doctype html>
 <html lang="en-GB">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+
   <meta charset="utf-8">
   <script type="module">
     import { html, render } from 'lit';
@@ -12,48 +16,36 @@
     body {
       margin: 0;
     }
-    .title {
-      color: red;
-    }
   </style>
 </head>
 <body>
-  <!-- <sand-box title="test" counter="1"></sand-box> -->
-  <!-- <wc-hero title="Welcome" styleType="nkh" subtitle="to this site" verttext="center" horizontaltext="flex-end" imgsrc="https://npf-prod.imgix.net/uploads/92e52a0b205e43b28f0fad900144da2e.jpg?auto=compress%2Cformat&crop=focalpoint&fit=min&fp-x=0.5&fp-y=0.5&h=1004&q=80&w=1600" ></wc-hero> -->
-  <!-- <wc-hero verttext="" horizontaltext="flex-end" imgsrc="https://npf-prod.imgix.net/uploads/92e52a0b205e43b28f0fad900144da2e.jpg?auto=compress%2Cformat&crop=focalpoint&fit=min&fp-x=0.5&fp-y=0.5&h=1004&q=80&w=1600" ></wc-hero> -->
+  <wc-text textTypes="h1" fontWeight="public-sans-0" fontSize="4" fontColor="USFS Green">
+    This is H1
+  </wc-text>
+  <wc-text textTypes="h2">
+    This is H2
+  </wc-text>
+<!-- <wc-hero verttext="" horizontaltext="flex-end" imgsrc="https://npf-prod.imgix.net/uploads/92e52a0b205e43b28f0fad900144da2e.jpg?auto=compress%2Cformat&crop=focalpoint&fit=min&fp-x=0.5&fp-y=0.5&h=1004&q=80&w=1600" ></wc-hero> */
   <wc-container>
-    <wc-card cardType="" cardWidth="50%">
+    <wc-card cardType="overlay" cardWidth="25%">
       <img slot="media" src="https://www.fillmurray.com/640/360" />
-      <h1>My Title</h1>
-      <p>my description</p>
+      <div class="card-content">
+        <h1>My Title</h1>
+        <p>my description</p>
+      </div>
     </wc-card>
-    <wc-card cardType="" cardWidth="50%">
+    <wc-card cardType="overlay" cardWidth="25%">
       <img slot="media" src="https://www.fillmurray.com/640/360" />
-      <h1>My Title</h1>
-      <p>my description</p>
+      <div class="card-content">
+        <h1>My Title</h1>
+        <p>my description</p>
+      </div>
     </wc-card>
-  </wc-container>
-  <wc-container>
-    <wc-card cardWidth="250px">
-      <img slot="media" src="https://loremflickr.com/320/240" />
-      <h1>My Title</h1>
-      <p>my description</p>
-    </wc-card>
-    <wc-card cardWidth="25%">
-      <img slot="media" src="https://loremflickr.com/320/240" />
-      <h1>My Title</h1>
-      <p>my description</p>
-    </wc-card>
-    <wc-card cardWidth="25%">
-      <img slot="media" src="https://loremflickr.com/320/240" />
-      <h1>My Title</h1>
-      <p>my description</p>
-    </wc-card>
-    <wc-card cardWidth="25%">
-      <img slot="media" src="https://loremflickr.com/320/240" />
-      <h1>My Title</h1>
-      <p>my description</p>
-    </wc-card>
-  </wc-container>
+  </wc-container> -->
 </body>
 </html>
+
+
+
+
+
