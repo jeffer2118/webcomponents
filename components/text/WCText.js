@@ -86,8 +86,12 @@ export class WCText extends LitElement {
         letter-spacing: ${unsafeCSS(this.letterSpacings[this.letterSpacing].value)};
         font-size: ${unsafeCSS(this.fontSizes[this.fontSize].value)}px;
         line-height: ${unsafeCSS(this.lineHeights[this.lineHeight].value)};
+      }
+      ${unsafeCSS(this.textTypes)} {
+        margin-block-start: 0;
+        margin-block-end: 0;
       }`;
-    
+
     // returns html
     return html`
     <style>${this.standardCSS}</style>
