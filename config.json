@@ -1,0 +1,52 @@
+{
+  "global": {
+    "theme": "USFS",
+    "fontfamilies":{},
+    "fonts": {
+      "default": "/global/default/fonts.json",
+      "custom": "/global/custom/fonts.json"
+    },
+    "colors": {
+      "default": "/global/default/colors.json",
+      "custom": "/global/custom/colors.json"
+    }
+  },
+ "components": {
+    "button": {
+      "theme": "USFS",
+      "customstyles": "../components/button/json/customstyle.json"
+    },
+    "card":{
+      "customstyles": "../components/card/json/customcardstyle.json"
+    },
+    "hero": {},
+    "list": {},
+    "form": {
+      "forms": "../components/form/json/form.json"
+    },
+    "logo":{},
+    "socialmedia": {
+      "socialmedias": "../components/socialmedia/json/default.json"
+    }
+ } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
