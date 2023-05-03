@@ -1,0 +1,38 @@
+{
+    "sample": {
+        "facebook": {
+            "linkURL": "https://facebook.com",
+            "icon": "<i class='fa-brands fa-square-facebook'></i>"
+        },
+        "twitter": {
+            "linkURL": "https://facebook.com",
+            "icon": "<i class='fa-brands fa-square-twitter'></i>"
+        },
+        "instagram": {
+            "linkURL": "https://facebook.com",
+            "icon": "<i class='fa-brands fa-square-instagram'></i>"
+        },
+        "linkedin": {
+            "linkURL": "https://facebook.com",
+            "icon": "<i class='fa-brands fa-linkedin'></i>"
+        }
+    },
+    "sampleColor": {
+        "facebook": {
+            "linkURL": "https://facebook.com",
+            "icon": "<i style='color: #4267B2;' class='fa-brands fa-square-facebook'></i>"
+        },
+        "twitter": {
+            "linkURL": "https://facebook.com",
+            "icon": "<i style='color: #1DA1F2;' class='fa-brands fa-square-twitter'></i>"
+        },
+        "instagram": {
+            "linkURL": "https://facebook.com",
+            "icon": "<img src='../../global/images/256px-Instagram_icon.png'"
+        },
+        "linkedin": {
+            "linkURL": "https://facebook.com",
+            "icon": "<i style='color: #0077b5;' class='fa-brands fa-linkedin'></i>"
+        }
+    }
+}

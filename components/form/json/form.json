@@ -1,0 +1,33 @@
+{
+    "newsletter": {
+        "Name": {
+            "type": "text",
+            "name": "name",
+            "autocapitalize": "off",
+            "autocorrect": "off",
+            "required": true
+        },
+        "Email": {
+            "type": "email",
+            "name": "email",
+            "autocapitalize": "off",
+            "autocorrect": "off",
+            "required": false
+        },
+        "Address": {
+            "type": "text",
+            "name": "address",
+            "autocapitalize": "off",
+            "autocorrect": "off",
+            "required": false
+        },
+        "I consent to be on a newsletter": {
+            "type": "checkbox",
+            "name": "consent",
+            "autocapitalize": "off",
+            "autocorrect": "off",
+            "required": false
+        }
+    }
+    
+}

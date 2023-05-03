@@ -1,0 +1,47 @@
+{
+    "USFS-colors": {
+        "Off Black": {
+        "value": "#2E1B1B",
+        "type": "color",
+        "description": "This is an USFS Color Off Black style token."
+        },
+        "Off White": {
+        "value": "#FCFCFC",
+        "type": "color",
+        "description": "This is an USFS Color Off Black style token."
+        },
+        "Brown": {
+        "value": "#562700",
+        "type": "color",
+        "description": "This is an USFS Color Off Brown style token."
+        },
+        "Yellow": {
+        "value": "#FACE00",
+        "type": "color",
+        "description": "This is an USFS Color Off Yellow style token."
+        },
+
+        "sizes":
+        {
+            "sm": "1rem",
+            "md": "1.06rem",
+            "lrg": "1.33rem",
+            "xl": "1.66rem"
+        }
+    },
+    "button-styles":{
+        "unique": {
+            "appearance": "none",
+            "border": "0",
+            "border-radius": "10% 30% 50% 70%",
+            "cursor": "pointer",
+            "display": "inline-block",
+            "font-weight": "700",
+            "margin-right": "0.5rem",
+            "padding": "0.75rem 1.25rem",
+            "text-align": "center",
+            "text-decoration": "none",
+            "background-color": "black"
+        }
+    }
+}
