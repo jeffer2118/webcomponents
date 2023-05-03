@@ -1,0 +1,7 @@
+{
+    "rounded": {
+        ".card": {
+            "border-radius": "50px"
+        }
+    }
+}

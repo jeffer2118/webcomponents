@@ -1,0 +1,46 @@
+{
+    "npf": {
+        "Off Black": {
+            "value": "#2E1B1B",
+            "type": "color",
+            "description": "This is an USFS Color Off Black style token."
+        },
+        "Off White": {
+            "value": "#FCFCFC",
+            "type": "color",
+            "description": "This is an USFS Color Off Black style token."
+        },
+        "Brown": {
+            "value": "#562700",
+            "type": "color",
+            "description": "This is an USFS Color Off Brown style token."
+        },
+        "Yellow": {
+            "value": "#FACE00",
+            "type": "color",
+            "description": "This is an USFS Color Off Yellow style token."
+        }
+    },
+    "USFS": {
+        "Off Black": {
+            "value": "#2E1B1B",
+            "type": "color",
+            "description": "This is an USFS Color Off Black style token."
+        },
+        "Off White": {
+            "value": "#FCFCFC",
+            "type": "color",
+            "description": "This is an USFS Color Off Black style token."
+        },
+        "Brown": {
+            "value": "#562700",
+            "type": "color",
+            "description": "This is an USFS Color Off Brown style token."
+        },
+        "Yellow": {
+            "value": "#FACE00",
+            "type": "color",
+            "description": "This is an USFS Color Off Yellow style token."
+        }
+    }
+}
