@@ -27,6 +27,9 @@
     "logo":{},
     "socialmedia": {
       "socialmedias": "../components/socialmedia/json/default.json"
+    },
+    "contentcontainer": {
+
     }
  } 
 }

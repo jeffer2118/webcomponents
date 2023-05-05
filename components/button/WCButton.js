@@ -67,7 +67,7 @@ export class WCButton extends LitElement {
   constructor() {
     super();
     this.buttonType = "rectangular";
-    this.bgColor = "gray-50";
+    this.bgColor = "blue";
     this.fontColor = "white";
     this.buttonState = "active";
     this.link = "https://espn.com";

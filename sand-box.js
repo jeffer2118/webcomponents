@@ -9,7 +9,6 @@ import { WCLogo} from './components/logo/WCLogo.js';
 import { WCSocialMedia} from './components/socialmedia/WCSocialMedia.js';
 
 
-
 window.customElements.define('sand-box', SandBox);
 window.customElements.define('wc-container', WCContentContainer);
 window.customElements.define('wc-card', WCCard);
@@ -19,5 +18,3 @@ window.customElements.define('wc-list', WCList);
 window.customElements.define('wc-form', WCForm);
 window.customElements.define('wc-logo', WCLogo);
 window.customElements.define('wc-social-media', WCSocialMedia);
-
-

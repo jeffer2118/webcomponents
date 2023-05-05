@@ -82,7 +82,7 @@ export class WCCard extends LitElement {
     this.imageSize = "";
     this.custom = "";
     this.backgroundColor = "gray-5";
-    this.altBG = "gray-50";
+    this.altBG = "white";
     this.altTextColor = "white";
     this.cardBG = "gray-50";
     this.cardWidth = "100%";
@@ -104,7 +104,7 @@ export class WCCard extends LitElement {
 
     const imgSlot = this.renderRoot.querySelector('slot[name=image]'); // select the slot element
 
-    if(imgSlot){
+    if(imgSlot && imgSlot.assignedElements()[0]){
 
       const img = imgSlot.assignedElements()[0]; // select the first element in the slot
    
@@ -211,7 +211,7 @@ export class WCCard extends LitElement {
             </div>
             <div class="img">
               <slot name="image" >
-                <img src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg" alt="A placeholder image">
+                <img src="https://designsysstem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg" alt="A placeholder image">
               </slot>
             </div>
           </div>

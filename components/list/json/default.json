@@ -1,16 +1,29 @@
 {
     "in-sep": {
         "ol": {
-            "display": "inline-block",
+            "display": "flex",
+            "padding": "0",
+            "list-style-type": "none"
+        },
+        "ul": {
+            "display": "inline",
             "padding": "0"
         },
         "li": {
-            "display": "inline"
+            "display": "flex",
+            "padding-right": "5px",
+            "margin-right": "5px",
+            "border-right": "1px solid"
+        },
+        "li:last-child": {
+            "display": "flex",
+            "padding-right": "5px",
+            "margin-right": "5px",
+            "border-right": "0px solid"
         },
         "li::after": {
-            "content": "' '",
-            "letter-spacing": "1em",
-            "background": "linear-gradient(90deg, transparent calc(50% - 0.03125em), currentColor 0, currentColor calc(50% + 0.03125em), transparent 0)"
+            "content": "''",
+            "letter-spacing": "1em"
         }
     },
     "icon-everyother": {
