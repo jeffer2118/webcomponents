@@ -30,36 +30,28 @@
 <body>
   <div id="output"></div>
 
-<!-- hello  <i class="fa-brands fa-square-facebook"></i>
-#4267B2
-<i class="fa-brands fa-square-twitter"></i>
-#1DA1F2
-<i class="fa-brands fa-square-instagram"></i>
-
-<i class="fa-brands fa-linkedin"></i>
-0077b5 -->
 <wc-container>
 
 <h1>Cards</h1>
 </wc-container>
 
 <wc-container>
-  <wc-card cardBG="red" style="width:calc(33% - 5px);">
+  <!-- cardBGSTyle="red" cardBG="linear-gradient(to right, cardBG="'https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg'-->
+  <wc-card style="width:calc(33% - 5px);" cardBG="https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg" >
     <div slot="footer">
     <wc-button bgColor="black" name="footer">Default</wc-button>
     </div>
   </wc-card>
-  <wc-card cardBG="blue" style="width:calc(33% - 5px);">
-    <div slot="footer">
-      <wc-button bgColor="black" name="footer">Default</wc-button>
-    </div>
+  <wc-card style="width:calc(33% - 5px);" cardBG="red">
   </wc-card>
-  <wc-card cardBG="green" style="width:calc(33% - 5px);">
-  
+  <wc-card style="width:calc(33% - 5px);">
   </wc-card>
 </wc-container>
 <wc-container>
-  <wc-card cardStyle="vertical" style="width:calc(33% - 5px);"></wc-card>
+
+  <wc-card cardStyle="vertical" style="width:calc(33% - 5px);">
+    <!-- <img slot="image" src="https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg" alt="this imageList"> -->
+  </wc-card>
   <wc-card cardStyle="vertical" style="width:calc(33% - 5px);"></wc-card>
   <wc-card cardStyle="vertical" style="width:calc(33% - 5px);"></wc-card>
 </wc-container>
@@ -68,7 +60,7 @@
   <wc-card cardStyle="horizontal" style="width:calc(50% - 5px);"></wc-card>
 </wc-container>
 <wc-container>
-  <wc-card cardStyle="horizontal" style="width:calc(100%);"></wc-card>
+  <wc-card imageSize="" cardStyle="horizontal" style="width:calc(100%);"></wc-card>
 </wc-container>
 
 
@@ -77,11 +69,8 @@
   <h1>Social Media</h1>
 </wc-container>
 <wc-container justifyContent="flex-start">
-
+<!-- mediaList="sampleColor" containerDirection="vertical"-->
 <wc-social-media mediaList="sampleColor" ></wc-social-media>
-<wc-social-media></wc-social-media>
-
-<wc-social-media containerDirection="vertical"></wc-social-media>
 </wc-container>
 
 <wc-container>
@@ -94,10 +83,6 @@
   </wc-logo>
   
 
-</wc-container>
-
-<wc-container>
-  <h1>Form</h1>
 </wc-container>
 
 <wc-container>
@@ -124,6 +109,15 @@
 </wc-container>
 <wc-container>
   <wc-list listStyle="in-sep" numberInList="4" imageList="1">
+    <li slot="item1">List 1</li>
+    <li slot="item2">List 2</li>
+    <li slot="item3">List 3</li>
+    <li slot="item4">List 4</li>
+  </wc-list>
+
+</wc-container>
+<wc-container>
+  <wc-list listStyle="num-list-solid" numberInList="4" imageList="1">
     <li slot="item1">List 1</li>
     <li slot="item2">List 2</li>
     <li slot="item3">List 3</li>

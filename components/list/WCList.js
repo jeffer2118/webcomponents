@@ -65,7 +65,7 @@ export class WCList extends LitElement {
   
   constructor() {
     super();
-    this.listStyle = "num-list";
+    this.listStyle = "num-list-outlined";
     this.numberInList = 2;
     this.imageList = "";
   }
@@ -91,7 +91,7 @@ export class WCList extends LitElement {
     var slots =``;
     var listCustomCSS = ``;
     for (let i = 0; i < this.numberInList; i++) {
-        if (this.listStyle == "num-list"){
+        if (this.listStyle == "num-list-outlined" || "num-list-solid"){
             slots += `<li><slot name="item${(i+1)}"></slot></li>`;
             listCustomCSS += `li:nth-child(${i+1})::before {
                 content: "${i+1}";
@@ -101,8 +101,14 @@ export class WCList extends LitElement {
         }
     }
     if (this.listStyle == "num-list"){
-        listCustomCSS += `li::before { font-size: 4rem}`;
+        listCustomCSS += ``;
     }
+    if (this.listStyle == "num-list"){
+    
+    } else {
+
+    }
+
     console.log(listCustomCSS)
     return html`
       <style>

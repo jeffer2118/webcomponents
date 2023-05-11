@@ -349,5 +349,13 @@
             "md": "1.06rem",
             "lrg": "1.33rem",
             "xl": "1.66rem"
-        }
+        },
+    "defaultimages": {
+        "1x1": "../../global/images/1-1.png",
+        "3x4": "../../global/images/3-4.png",
+        "4x3": "../../global/images/4-3.png",
+        "7x5": "../../global/images/7-5.png",
+        "8x10": "../../global/images/8-10.png",
+        "16x9": "../../global/images/16-9.png"
+    }
 }
